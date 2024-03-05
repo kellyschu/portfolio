@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Montserrat:wght@200;300;400;600&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300&family=Roboto:wght@400;700&family=Work+Sans:ital,wght@1,700&display=swap");
+@font-face {
+  font-family: "Hetton Light";
+  src: url("./typography/otf/PPHatton-Ultralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Hetton Bold";
+  src: url("./typography/otf/PPHatton-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Hetton Regular";
+  src: url("./typography/otf/PPHatton-Medium.otf") format("opentype");
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  // color: #a89c92;
+
+  box-sizing: border-box;
+  position: relative;
+}
+ul {
+  font-family: "dm sans", sans-serif;
+}
+body {
+  font-family: "hetton bold", sans-serif;
+
+  margin: 0;
+  font-size: calc(0.75rem + 0.25vw);
+  min-height: 100dvh;
+  //verison 1
+  background-color: #eceef2;
+  background-color: #a69082;
+  background-color: #8b7160;
+  background-color: #d6d8de;
+  background-color: #c2b3a7;
+
+  //version 2
+  background-color: #e3d9d6;
+  background-color: #c8b7ab;
+  background-color: #a49184;
+  background-color: #685344;
+  background-color: #363023;
+
+  // version 3
+
+  background-color: #a89c92;
+  background-color: #beb7b2;
+  background-color: #dcd8d5;
+  background-color: #8a7869;
+  background-color: #8a563d;
+
+  //primary colors
+  background-color: #f7f7f7;
+  background-color: #365b6d;
+  background-color: #9e8779;
+  background-color: #f2f1ec;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+
+.contact-img {
+  width: 200px;
+}
+.headline h1 {
+  text-transform: uppercase;
+  margin-left: 45px;
+  line-height: 15px;
+  text-shadow: #d1d3ec 1px 1px 12px;
+  transform: scale(1.1);
+  transition: transform 0.6s ease-in;
+  font-weight: 700;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contact-img {
+  width: 16rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 19%;
+  box-shadow: -12px -10px 4px #6767935a;
+}
+.headline h3 {
+  margin-left: 25px;
+  max-width: 450px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #60608b;
+  line-height: 1.4;
+  text-shadow: #d1d3ec 1px 1px 12px;
+}
+button {
+  border: none;
+  margin: 20px 10px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: rgba(136, 143, 234, 0.785);
+  color: #fff;
+  font-weight: 500;
+  font-size: large;
+}
+button:hover {
+  background-color: #676ecf;
+  cursor: pointer;
+  transform: scale(0.98);
+  transition: transform 0.1s linear;
+}
+video {
+  max-width: 1000px;
+  padding: 40px;
+}
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.03rem;
+  font-weight: 300;
+  color: #676793;
+  text-shadow: #cccde4 8px 8px 8px;
+}
+footer {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.display-flex__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  color: white;
+  margin: 0 10px 0 0;
+}
+header {
+  background: linear-gradient(
+    -50deg,
+    rgba(211, 212, 251) -5%,
+    rgb(171, 176, 255) 10%,
+    rgba(229, 229, 248) 70%,
+    rgba(211, 212, 251) 100%
+  );
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  line-height: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+main {
+  padding-top: 5rem;
+}
+.home {
+  padding-top: 4em;
+}
+.headline:first-child {
+  line-height: 0.8;
+}
+@media screen and (max-width: 875px) {
+  nav ul {
+    gap: 20px;
+    padding: 20px;
+  }
+  button {
+    margin: 5px;
+    padding: 7px;
+    font-size: small;
+  }
+}
+.about__container {
+  /* color: #7272a4; */
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background-color: rgba(248, 250, 251, 0.6);
+  background: transparent;
+  padding: 0px 5px 30px 5px;
+  border-radius: 15px;
+  margin: 30px 20px;
+  width: 840px;
+  text-align: center;
+  box-sizing: content-box;
+  text-wrap: balance;
+}
+.tech button {
+  background-color: rgb(211, 212, 251);
+  color: #7272a4;
+  letter-spacing: -1px;
+  margin: 10px;
+}
+.tech button i {
+  color: #7272a4;
+}
