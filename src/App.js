@@ -10,7 +10,6 @@ import AboutPage from "./Pages/AboutPage/AboutPage";
 import ProjectsPage from "./Pages/ProjectsPage/ProjectsPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import "./App.scss";
-import Logo from "./assests/icons/KSD.V4.png";
 
 function App() {
   return (
