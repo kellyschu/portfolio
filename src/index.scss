@@ -109,17 +109,18 @@ button {
   margin: 20px 10px;
   padding: 10px 25px;
   border-radius: 5px;
-  background-color: rgba(136, 143, 234, 0.785);
+  background-color: #a89c92;
   color: #fff;
   font-weight: 500;
   font-size: large;
+  font-family: "dm sans" sans-serif;
 }
-button:hover {
-  background-color: #676ecf;
-  cursor: pointer;
-  transform: scale(0.98);
-  transition: transform 0.1s linear;
-}
+// button:hover {
+//   background-color: #676ecf;
+//   cursor: pointer;
+//   transform: scale(0.98);
+//   transition: transform 0.1s linear;
+// }
 video {
   max-width: 1000px;
   padding: 40px;

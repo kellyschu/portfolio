@@ -104,10 +104,11 @@ button {
   margin: 20px 10px;
   padding: 10px 25px;
   border-radius: 5px;
-  background-color: rgba(136, 143, 234, 0.785);
+  background-color: rgba(80, 83, 111, 0.785);
   color: #fff;
   font-weight: 500;
   font-size: large;
+  font-family: "dm sans" sans-serif;
 }
 
 button:hover {

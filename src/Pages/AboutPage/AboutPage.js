@@ -3,7 +3,7 @@ import "./AboutPage.scss";
 
 export default function AboutPage() {
   return (
-    <div className="about-page">
+    <div className="flex-container">
       <AboutContainer color={"grey"}>
         <h2>Passion for Code</h2>
         <p>Watching the screen come to life.</p>
