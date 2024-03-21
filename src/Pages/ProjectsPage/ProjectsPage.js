@@ -8,7 +8,7 @@ import paint from "../../assests/images/paintappscreenshot.png";
 export default function ProjectsPage() {
   return (
     <div className="flex-container">
-      <AboutContainer color={"grey"} height={"fit-content"}>
+      <AboutContainer color={"grey"}>
         <h2>Podstream</h2>
         <p>PodCast Streaming site with Social Media Aspect</p>
         <img
@@ -24,6 +24,7 @@ export default function ProjectsPage() {
         <a
           href="https://www.linkedin.com/in/kellyschumacher/details/projects/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAACtqJAsBv231NS54rum9SRboqmlr3N9l4J4"
           target="_blank"
+          rel="noreferrer noopener"
         >
           <button class="btn">
             {/* <i class="fa-brands fa-linkedin"></i> */}
@@ -44,14 +45,18 @@ export default function ProjectsPage() {
             objectFit: "cover",
           }}
         />
-        <a href=" https://mockmoviesite.netlify.app/" target="_blank">
+        <a
+          href=" https://mockmoviesite.netlify.app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <button class="btn">
             {/* <i class="fa-solid fa-display"></i> */}
             View Website
           </button>
         </a>
       </AboutContainer>
-      <AboutContainer color={"#363023"} height={"fit-content"}>
+      <AboutContainer color={"#363023"}>
         <h2>InStock</h2>
         <p>Warehouse Inventory Management System</p>
         <img
@@ -67,6 +72,7 @@ export default function ProjectsPage() {
         <a
           href="https://www.linkedin.com/feed/update/urn:li:activity:7130383699623182336/"
           target="_blank"
+          rel="noreferrer noopener"
         >
           <button class="btn">
             {/* <i class="fa-brands fa-linkedin"></i> */}
@@ -74,7 +80,7 @@ export default function ProjectsPage() {
           </button>
         </a>
       </AboutContainer>
-      <AboutContainer height={"fit-content"}>
+      <AboutContainer>
         <h2>Paint App</h2>
         <p>A painting app, with brush strokes and color options</p>
         <img
@@ -91,6 +97,7 @@ export default function ProjectsPage() {
           href="https://paintcanvas.netlify.app/"
           target="_blank"
           class="btn-link"
+          rel="noreferrer noopener"
         >
           <button class="btn">
             {/* <i class="fa-solid fa-display"></i> */}
