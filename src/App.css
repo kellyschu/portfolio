@@ -25,7 +25,8 @@ nav li:not(:first-child) {
   text-transform: uppercase;
   border-radius: 4px;
   padding: calc(0.1rem + 0.3vw) calc(0.2rem + 0.75vw);
-  box-shadow: 3px 3px 10px rgba(85, 80, 80, 0.2) 5px 5px 20px rgba(32, 31, 31, 0.8);
+  box-shadow: 3px 3px 10px rgba(85, 80, 80, 0.2) 5px 5px 20px
+    rgba(32, 31, 31, 0.8);
   z-index: 2;
 }
 
@@ -58,4 +59,4 @@ p {
   font-family: "hetton light", sans-serif;
   font-size: calc(0.4rem + 0.7vw);
   letter-spacing: calc(0.1rem + 0.3vw);
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */
