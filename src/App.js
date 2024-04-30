@@ -36,7 +36,9 @@ function App() {
               }}
             >
               <h3>kelly schumacher</h3>
-              <p>software engineer</p>
+              <p style={{ borderTop: "1px solid #363023" }}>
+                software engineer
+              </p>
             </li>
             <li
               style={{
