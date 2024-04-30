@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul.tech-stack li {
+  font: inherit;
+  width: fit-content;
+  margin: 0.5rem;
+  border: slategrey solid 2px;
+  border-radius: 5px;
+  padding: 0.35rem 0.75rem;
+  font-size: 1rem;
+  color: darkslategrey;
+  background-color: #fefefef7;
+  cursor: pointer;
+  &:hover {
+    background-color: darkslategrey;
+    color: #eee;
+  }
+}

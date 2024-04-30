@@ -36,7 +36,7 @@ function App() {
               }}
             >
               <h3>kelly schumacher</h3>
-              <p>software developer</p>
+              <p>software engineer</p>
             </li>
             <li
               style={{
